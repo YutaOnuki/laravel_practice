@@ -8,7 +8,7 @@
 <body>
     @extends('layout')
 
-    @section('about')
+    @section('contact')
     <h1>contact me!</h1>
     @endsection
 </body>

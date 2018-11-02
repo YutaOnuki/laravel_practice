@@ -14,4 +14,9 @@ class WelcomeController extends Controller
     //{
     //  return view('contact');
     //}
+
+    public function layout()
+    {
+      return view('layout');
+    }
 }
