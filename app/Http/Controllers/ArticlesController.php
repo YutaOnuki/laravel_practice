@@ -14,4 +14,13 @@ class ArticlesController extends Controller
 $article = Article::findorfail($id);
       return view('articles.show', compact('article'));
     }
+    public function create(){
+      return view('articles.create');
+    }
+    public function store(){
+      $inputs = \Request::all();
+      //dd($inputs);
+      Article::create($inputs);
+      return redirect('articles');
+    }
 }

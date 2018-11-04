@@ -9,4 +9,6 @@ Route::get('layout', 'WelcomeController@layout');
 Route::get('contact', 'PagesController@contact');
 Route::get('about',   'PagesController@about');
 Route::get('articles', 'ArticlesController@index');
+Route::get('articles/create', 'ArticlesController@create');
 Route::get('articles/{id}', 'ArticlesController@show');
+route::post('articles', 'ArticlesController@store');

@@ -1,6 +1,8 @@
 @extends('layout')
 @section('content')
-  <h1>Articles</h1>
+  <h1>Articles
+    <a href="articles/create" class="btn btn-primary float-right">新規作成</a>
+  </h1>
 
   <hr/>
 
@@ -13,4 +15,4 @@
       </h2>
     </article>
   @endforeach
-@endsection      
+@endsection
