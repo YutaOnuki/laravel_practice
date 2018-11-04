@@ -7,10 +7,13 @@ class DatabaseSeeder extends Seeder
     /**
      * Seed the application's database.
      *
-     * @return void
+     *
      */
     public function run()
     {
-        // $this->call(UsersTableSeeder::class);
+      $this->call([
+        ArticlesTableSeeder::class,// シーダーの呼び出しの追加
+        //OtherTablesSeeder::class, 複数シーダーの呼び出し
+      ]);
     }
 }
