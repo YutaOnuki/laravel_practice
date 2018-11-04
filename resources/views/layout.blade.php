@@ -6,7 +6,7 @@
 </head>
 <body>
 
-    @yield('about')
+    @yield('content')
 
     @yield('contact')
 

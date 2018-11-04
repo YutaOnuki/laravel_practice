@@ -1,15 +1,6 @@
 <!-- resources/view/contact.blade.php -->
+@extends('layout')
 
-<!DOCTYPE HTML>
-<html>
-<head>
-    <title>contact</title>
-</head>
-<body>
-    @extends('layout')
-
-    @section('contact')
-    <h1>contact me!</h1>
-    @endsection
-</body>
-</html>
+@section('contact')
+<h1>contact me!</h1>
+@endsection
